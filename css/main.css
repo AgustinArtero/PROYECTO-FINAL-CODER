@@ -1,0 +1,444 @@
+body {
+    background-size: 100%;
+    background-image: url(../cimg/FONDO_EDLP.jpg);
+    background-position: center;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 50px;
+} 
+.titu {
+    text-decoration: none;
+    color: rgb(255, 108, 108);
+}
+
+header {
+    text-align: center;
+    background-image: url(../cimg/fondo_nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pags {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding-left: 790px;
+    padding-bottom: 30px;
+    color: #000000;text-shadow: 2px 2.5px 3.4px #fff;
+}
+
+.dbl {
+    list-style-type: none;
+}
+.links{
+    color: #ededed;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration:none;
+}
+
+.links:hover {
+    color: #f00;
+    font: 1em sans-serif;
+}
+.dbl:hover {
+    color: #f00;
+}
+
+.formulario {
+    align-items: center;
+    margin-left: 730px;
+}
+.form {
+    border-radius: 15px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 8px 8px 47px #656565,-8px -8px 47px #ffffff;
+    width: 500px;
+    text-align: center;
+    display: flex; 
+}
+.comple {
+    padding-bottom: 20px;
+}
+.fv1 {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+}
+.areatext {
+    width: 395px;
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+.texttt {
+    font-size: 20px;
+    font-weight: 500 ; 
+    margin: 0px;
+}
+.css-button-rounded--red {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #d90429;
+    background: #d90429;
+    margin-bottom: 10px;
+  }
+  .css-button-rounded--red:hover {
+    background-color:#cacaca; 
+    color: #d90429
+  }
+.ob {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+.prod_cam {
+    display: flex;
+    flex-direction: row;
+}
+.prod_cam a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+.cam1 {
+    background-color: rgba(156, 156, 156, 0.466);
+    border-radius: 4%;
+}
+.cam3 {
+    background-color: rgba(156, 156, 156, 0.466);
+    border-radius: 4%;
+}
+.cam5 {
+    background-color: rgba(156, 156, 156, 0.466);
+    border-radius: 4%;
+}
+.cam2 {
+    margin: 5px;
+    background-color: rgba(156, 156, 156, 0.87);
+    border-radius: 4%;
+}
+.cam4 {
+    margin: 5px;
+    background-color: rgba(156, 156, 156, 0.856);
+    border-radius: 4%;
+}
+/*A partir de aca son los hover*/
+.cam1:hover {
+    background-color: rgba(156, 156, 156, 0.856);
+    border-radius: 4%;
+}
+.cam3:hover {
+    background-color: rgba(156, 156, 156, 0.856);
+    border-radius: 4%;
+}
+.cam5:hover {
+    background-color: rgba(156, 156, 156, 0.856);
+    border-radius: 4%;
+}
+.cam2:hover {
+    margin: 5px;
+    background-color: rgba(156, 156, 156, 0.466);
+    border-radius: 4%;
+}
+.cam4:hover {
+    margin: 5px;
+    background-color: rgba(156, 156, 156, 0.466);
+    border-radius: 4%;
+}
+.dest {
+    text-align: center;
+}
+.navfooter {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    position:fixed ;
+    bottom: 10px;
+}
+.divredes {
+    position:fixed;
+    padding-right: 5px;
+    left: 350px;
+    bottom: 10px;
+}
+.redes {
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.inde_tit {
+    text-align: center;
+}
+.inde_tit_titulo {
+    font-size: 40px;
+}
+.inde_tit_parrafo {
+    margin:  0px 400px 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+
+.indekk {
+    margin: 20px 500px;
+    border-radius: 5px;
+    background: #c4c4c4;
+    box-shadow:  21px 21px 24px #5a5a5a,-21px -21px 21px #ffffff;
+    display: flex;
+    padding-left: 35px;
+    flex-direction: row;
+    text-align: center;
+}
+.indekkk {
+    margin: 20px 500px;
+    border-radius: 5px;
+    background: #c4c4c4;
+    box-shadow:  21px 21px 24px #5a5a5a,-21px -21px 21px #ffffff;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: row;
+    
+    text-align: center;
+    border-bottom: #000 1px;
+}
+.inekka {
+    border-radius: 3px;
+    background: #dedede;
+    box-shadow:  3px 3px 5px #bfbfbf,-3px -3px 5px #fdfdfd;
+    padding: 5px;
+    margin: 20px;
+}
+.inekka:hover {
+    background: #f1f1f1;
+}
+.inekka_a {
+    font-weight: 700;
+}
+.inekkb {
+    border-radius: 3px;
+    background: #dedede;
+    box-shadow:  3px 3px 5px #bfbfbf,-3px -3px 5px #fdfdfd;
+    padding: 5px;
+    margin: 20px;
+}
+.inekkb:hover {
+    background: #f1f1f1;
+}
+.inekkb_b {
+    font-weight: 700;
+}
+.tit_est {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.parr_est {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+.estadio {
+    display: flex;
+    flex-direction: row;
+}
+.hirschi {
+    margin: 20px 600px;
+    padding-top: 7px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 2px;
+    background: linear-gradient(315deg, #c0c0c0, #d1d1d1);
+    box-shadow:  -2px -2px 6px #929292,2px 2px 6px #e0e0e0;
+}
+.hirschi_dos {
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 2px;
+    background: linear-gradient(315deg, #c0c0c0, #d1d1d1);
+    box-shadow:  -2px -2px 6px #929292,2px 2px 6px #e0e0e0;
+}
+.hirschi_dosv2 {
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 1px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  5px 5px 10px #d5d5d5,-5px -5px 10px #ebebeb;
+    padding: 10px;
+    margin-left: 20px;
+}
+.his {
+    text-align: center;
+}
+.his_tit {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.his_par {
+    font-size: 20px;
+    margin: 10px 300px;
+    font-weight: 500;
+}
+.his_fund {
+    text-align: center;
+}
+.his_izq {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    border-radius: 3px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  5px 5px 16px #6e6e6e,-5px -5px 16px #ffffff;
+    width: 800px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.his_der {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 37.5%;
+    border-radius: 3px;
+    background: linear-gradient(145deg, #a3a3a3, #d4d4d4);
+    box-shadow:  5px 5px 16px #6e6e6e,-5px -5px 16px #ffffff;
+    width: 800px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.his_cen {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px ;
+    padding-right: 20px;
+    text-align: center;
+    color: #ededed;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 4px;
+    background-image: url(../cimg/back_text.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+}    
+.fechz {
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+.fechz:hover {
+    color: #fe0000;
+}
+.gloria {
+    font-size: 18px;
+}
+.barbistro {
+    display: flex;
+    flex-direction: column;
+}
+.vwmore {
+    margin-top: 30px;
+    text-decoration: none;
+    color: #f00;
+    font-size: 23px;
+    font-weight: 500;
+}
+.vwmore:hover {
+    color: #000;
+}
+.hirschi_tit {
+    margin-top: 10px;
+}
+.pics {
+    border-color: rgb(116, 116, 116);
+    border-width: 1px 1px;
+    border-style: dashed;
+}
+.pics:hover {
+    border-color: rgb(255, 0, 0);
+    border-width: 1px 1px;
+    border-style: dashed;
+}
+.seghirs {
+    margin: 20px 600px;
+    padding-top: 7px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 2px;
+    background: linear-gradient(315deg, #c0c0c0, #d1d1d1);
+    box-shadow:  -2px -2px 6px #929292,2px 2px 6px #e0e0e0;
+}
+
+.copas {
+    background-image: url(../cimg/libertadores.png);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.copas_foto{
+    border-style: groove;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0);
+}
+.copas_foto:hover {
+    border-style: groove;
+    border-width: 1px;
+    border-color: #000;
+}
+.copas_tit {
+    font-size: 30px;
+    margin: 10px;
+}
+.copas_tit:hover {
+    color: #fe0000;
+}
+.seghirs:hover {
+    border-radius: 2px;
+    background: linear-gradient(315deg, #919191, #b8b8b8);
+    box-shadow:  -2px -2px 6px #797979,2px 2px 6px #c4c4c4;
+}
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
