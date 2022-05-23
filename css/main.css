@@ -564,6 +564,9 @@ header {
             display: flex;
             flex-direction: column;
         }
+        .detallecam {
+            font-size: 13px;
+        }
         .camisetaspic {
             width: 250px;
         }
