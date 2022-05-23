@@ -34,6 +34,7 @@ header {
 
 .dbl {
     list-style-type: none;
+    text-shadow: 1px 1.5px 3.4px rgb(5, 5, 5);
 }
 .links{
     color: #ededed;
@@ -504,9 +505,9 @@ header {
         flex-direction: column;
         justify-content: center;
     }
-        .hokey {
-            margin-bottom: 150px;
-        }
+    .hokey {
+        margin-bottom: 200px;
+    }
     }
 @media (max-width: 1900px)
  {
@@ -534,34 +535,42 @@ header {
         }
     }
 
-@media (max-width: 1679px) {
-    .prod_cam {
-        align-items: center;
-        display: flex;
-        justify-content:space-around;
+@media (max-width: 460px)
+    {
+        .dbl {
+            font-size: 17px;
+        }
     }
-    .cam1 {
-        background-color: rgba(156, 156, 156, 0.466);
-        border-radius: 4%;
-        display: flex;
-        align-content: center;
-        margin: 20px 50px;
+
+@media (max-width: 1679px) 
+    {
+        .prod_cam {
+            align-items: center;
+            display: flex;
+            justify-content:space-around;
     }
-    .cam3 {
-        background-color: rgba(156, 156, 156, 0.466);
-        border-radius: 4%;
-        display: flex;
-        align-content: center;
-        margin: 20px 50px;
+        .cam1 {
+            background-color: rgba(156, 156, 156, 0.466);
+            border-radius: 4%;
+            display: flex;
+            align-content: center;
+            margin: 20px 50px;
     }
-    .cam5 {
-        background-color: rgba(156, 156, 156, 0.466);
-        border-radius: 4%;
-        display: flex;
-        align-content: center;
-        margin: 20px 50px;
+        .cam3 {
+            background-color: rgba(156, 156, 156, 0.466);
+            border-radius: 4%;
+            display: flex;
+            align-content: center;
+            margin: 20px 50px;
     }
-    .cam2 {
+        .cam5 {
+            background-color: rgba(156, 156, 156, 0.466);
+            border-radius: 4%;
+            display: flex;
+            align-content: center;
+            margin: 20px 50px;
+    }
+        .cam2 {
         margin: 5px;
         background-color: rgba(156, 156, 156, 0.87);
         border-radius: 4%;
@@ -576,9 +585,7 @@ header {
         display: flex;
         align-content: center;
         margin: 20px 50px;
-
-    
-}
+    }
 }
 @media (max-width: 1192px) {
     .prod_cam {
