@@ -230,8 +230,6 @@ header {
 .indekk {
     border-radius: 5px;
     background:content-box;
-    /* background: #c4c4c4;
-    box-shadow:  21px 21px 24px #5a5a5a,-21px -21px 21px #ffffff; */
     display: flex;
     justify-content:center;
     flex-direction: row;
@@ -239,8 +237,6 @@ header {
 }
 .indekkk {
     border-radius: 5px;
-    /* background: #c4c4c4;
-    box-shadow:  21px 21px 24px #5a5a5a,-21px -21px 21px #ffffff; */ 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -301,17 +297,20 @@ header {
     display: flex;
     flex-direction: row;
 }
-.hirschi {
-    margin: 20px 600px;
-    padding-top: 7px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    align-items: center;
+.picz {
+    
     border-radius: 2px;
     background: linear-gradient(315deg, #c0c0c0, #d1d1d1);
     box-shadow:  -2px -2px 6px #929292,2px 2px 6px #e0e0e0;
+    width: 790px;
+    padding: 20px   ;
+}
+.hirschi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 .hirschi_dos {
     display: flex;
@@ -444,16 +443,14 @@ header {
     border-style: dashed;
 }
 .seghirs {
-    margin: 20px 600px;
     padding-top: 7px;
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    border-radius: 2px;
-    background: linear-gradient(315deg, #c0c0c0, #d1d1d1);
-    box-shadow:  -2px -2px 6px #929292,2px 2px 6px #e0e0e0;
+    justify-content: center;
 }
 
 .copas {
@@ -477,11 +474,6 @@ header {
 }
 .copas_tit:hover {
     color: #fe0000;
-}
-.seghirs:hover {
-    border-radius: 2px;
-    background: linear-gradient(315deg, #919191, #b8b8b8);
-    box-shadow:  -2px -2px 6px #797979,2px 2px 6px #c4c4c4;
 }
 
     /*Responsive Design*/
@@ -516,11 +508,16 @@ header {
         .hokey {
             margin-bottom: 200px;
         }
+        .picz {
+            padding: 10px;
+        }
     }
 
 @media (max-width: 1900px)
  {
-        .navfooter {width: 200px;}
+        .navfooter {
+            width: 200px;
+        }
         .divredes {
             left: 240px;
         }
@@ -531,6 +528,13 @@ header {
         }
         .camisetaspic {
             width: 300px;
+        }
+        .gastro 
+        {
+            width: 700px;
+        }
+        .hirschi_dosv2 {
+            font-size: 17px;
         }
     }
 
@@ -551,50 +555,6 @@ header {
         }
         
     }
-/*
-@media (max-width: 790px)
-    {   
-        .dbl {
-            font-size: 17px;
-        }
-        .detallecam {
-            font-size: 13px;
-        }
-        .camisetaspic {
-            width: 250px;
-        }
-        .prod_cam {
-            display: flex;
-            align-content: center;
-            flex-direction: column;
-        }
-        .cam1 {
-            display: flex;
-            align-content: center;
-            margin-bottom: 20px;
-        }
-        .cam3 {
-            display: flex;
-            align-content: center;
-            margin-bottom: 20px;
-        }
-        .cam5 {
-            display: flex;
-            align-content: center;
-            margin-bottom: 120px;
-        }
-        .cam2 {
-            display: flex;
-            align-content: center;
-            margin-bottom: 20px;
-        }
-        .cam4 {
-            display: flex;
-            align-content: center;
-            margin-bottom: 20px; 
-        }
-    } */
-
 
 
 
@@ -646,6 +606,13 @@ header {
             align-content: center;
             margin: 20px 50px;  
         }
+        .gastro 
+        {
+            width: 500px;
+        }
+        .hirschi_dosv2 {
+            font-size: 15px;
+        }
     }
 
 @media (max-width: 1192px) 
@@ -684,6 +651,49 @@ header {
             margin: 20px 50px;
         }
 }
+
+@media (max-width: 1525px)
+    {
+        .picz {
+            width: 690px;
+        }
+        .hirschi_dos {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        .vwmore {
+            margin: 0px;
+        }
+        .gastro 
+        {   display: flex;
+            justify-items: center;
+            width: 500px;
+            margin: 0px;
+        }
+        .hirschi_dosv2 {
+            margin-left: 20%;
+            margin-right: 20%;
+            font-size: 14px;
+            padding-right: 10px;
+        }
+}
+
+@media (max-width: 1200px)
+    {
+        .picz {
+            width: 420px;
+        }
+        .hirschi_tit {
+            font-size: 16px;
+        }
+        .gastro {
+            width: 400px;
+        }
+    }
 
 @media (max-width: 790px)
     {   
@@ -726,6 +736,41 @@ header {
             align-content: center;
             margin-bottom: 20px; 
         }
+
+        .picz {
+            width: 350px;
+        }
+        .hirschi_dos {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        .tit_est {
+            font-size: 20px;
+        }
+        .parr_est {
+            font-size: 18px;
+        }
+        .hirschi_tit {
+            font-size: 15px;
+            margin-bottom: 4px;
+        }
+        .gastro 
+        {   display: flex;
+            justify-items: center;
+            width: 300px;
+            margin: ;
+        }
+        .hirschi_dosv2 {
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 14px;
+            padding-right: 10px;
+        }
+
     }
 
 
