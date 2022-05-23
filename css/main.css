@@ -745,8 +745,8 @@ header {
             justify-content: center;
             flex-direction: column;
             
-            margin-left: 20%;
-            margin-right: 20%;
+            margin-left: 7%;
+            margin-right: 7%;
         }
         .tit_est {
             font-size: 20px;
@@ -765,9 +765,9 @@ header {
             margin: ;
         }
         .hirschi_dosv2 {
-            margin-left: 5%;
-            margin-right: 5%;
-            font-size: 14px;
+            margin-left: 1%;
+            margin-right: 1%;
+            font-size: 11px;
             padding-right: 10px;
         }
 
