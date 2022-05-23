@@ -551,8 +551,8 @@ header {
         }
         
     }
-
-    @media (max-width: 790px)
+/*
+@media (max-width: 790px)
     {   
         .dbl {
             font-size: 17px;
@@ -568,9 +568,32 @@ header {
             align-content: center;
             flex-direction: column;
         }
-
-
-    }
+        .cam1 {
+            display: flex;
+            align-content: center;
+            margin-bottom: 20px;
+        }
+        .cam3 {
+            display: flex;
+            align-content: center;
+            margin-bottom: 20px;
+        }
+        .cam5 {
+            display: flex;
+            align-content: center;
+            margin-bottom: 120px;
+        }
+        .cam2 {
+            display: flex;
+            align-content: center;
+            margin-bottom: 20px;
+        }
+        .cam4 {
+            display: flex;
+            align-content: center;
+            margin-bottom: 20px; 
+        }
+    } */
 
 
 
@@ -583,46 +606,10 @@ header {
         .pics {
             width: 350px;
         }
-         .camisetaspic {
+        .camisetaspic {
             width: 230px;
         }
-        .cam1 {
-            background-color: rgba(156, 156, 156, 0.466);
-            border-radius: 4%;
-            display: flex;
-            align-content: center;
-            margin: 20px 40px;
-        }
-        .cam3 {
-            background-color: rgba(156, 156, 156, 0.466);
-            border-radius: 4%;
-            display: flex;
-            align-content: center;
-            margin: 20px 40px;
-        }
-        .cam5 {
-            background-color: rgba(156, 156, 156, 0.466);
-            border-radius: 4%;
-            display: flex;
-            align-content: center;
-            margin: 20px 40px;
-        }
-        .cam2 {
-            margin: 5px;
-            background-color: rgba(156, 156, 156, 0.87);
-            border-radius: 4%;
-            display: flex;
-            align-content: center;
-            margin: 20px 40px;
-        }
-        .cam4 {
-            margin: 5px;
-            background-color: rgba(156, 156, 156, 0.856);
-            border-radius: 4%;
-            display: flex;
-            align-content: center;
-            margin: 20px 40px;  
-        }
+        
     }
 
 @media (max-width: 1679px) 
@@ -633,38 +620,28 @@ header {
             justify-content:space-around;
         }
         .cam1 {
-            background-color: rgba(156, 156, 156, 0.466);
-            border-radius: 4%;
             display: flex;
             align-content: center;
             margin: 20px 50px;
         }
         .cam3 {
-            background-color: rgba(156, 156, 156, 0.466);
-            border-radius: 4%;
             display: flex;
             align-content: center;
             margin: 20px 50px;
         }
         .cam5 {
-            background-color: rgba(156, 156, 156, 0.466);
-            border-radius: 4%;
             display: flex;
             align-content: center;
             margin: 20px 50px;
         }
         .cam2 {
             margin: 5px;
-            background-color: rgba(156, 156, 156, 0.87);
-            border-radius: 4%;
             display: flex;
             align-content: center;
             margin: 20px 50px;
         }
         .cam4 {
             margin: 5px;
-            background-color: rgba(156, 156, 156, 0.856);
-            border-radius: 4%;
             display: flex;
             align-content: center;
             margin: 20px 50px;  
@@ -679,22 +656,16 @@ header {
             flex-direction: column;
         }
         .cam1 {
-            background-color: rgba(156, 156, 156, 0.466);
-            border-radius: 4%;
             display: flex;
             align-content: center;
             margin: 20px 50px;
         }
         .cam3 {
-            background-color: rgba(156, 156, 156, 0.466);
-            border-radius: 4%;
             display: flex;
             align-content: center;
             margin: 20px 50px;
         }
         .cam5 {
-            background-color: rgba(156, 156, 156, 0.466);
-            border-radius: 4%;
             display: flex;
             align-content: center;
             margin-top: 20px;
@@ -702,23 +673,60 @@ header {
         }
         .cam2 {
             margin: 5px;
-            background-color: rgba(156, 156, 156, 0.87);
-            border-radius: 4%;
             display: flex;
             align-content: center;
             margin: 20px 50px;
         }
         .cam4 {
             margin: 5px;
-            background-color: rgba(156, 156, 156, 0.856);
-            border-radius: 4%;
             display: flex;
             align-content: center;
             margin: 20px 50px;
         }
 }
 
-
+@media (max-width: 790px)
+    {   
+        .dbl {
+            font-size: 17px;
+        }
+        .detallecam {
+            font-size: 13px;
+        }
+        .camisetaspic {
+            width: 250px;
+        }
+        .prod_cam {
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+        }
+        .cam1 {
+            display: flex;
+            align-content: center;
+            margin-bottom: 20px;
+        }
+        .cam3 {
+            display: flex;
+            align-content: center;
+            margin-bottom: 20px;
+        }
+        .cam5 {
+            display: flex;
+            align-content: center;
+            margin-bottom: 100px;
+        }
+        .cam2 {
+            display: flex;
+            align-content: center;
+            margin-bottom: 20px;
+        }
+        .cam4 {
+            display: flex;
+            align-content: center;
+            margin-bottom: 20px; 
+        }
+    }
 
 
 * {
