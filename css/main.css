@@ -120,7 +120,7 @@ header {
     color: #000;
 }
 .camisetaspic {
-    width: 300px;
+    width: 350px;
 }
 .detallecam {
     padding: 0px 30px;
@@ -529,7 +529,9 @@ header {
             flex-direction: row;
             width: 20px;
         }
-
+        .camisetaspic {
+            width: 300px;
+        }
     }
 
 @media (max-width: 580px)
@@ -556,6 +558,51 @@ header {
         }
         .pics {
             width: 350px;
+        }
+        .prod_cam {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .camisetaspic {
+            width: 250px;
+        }
+        .cam1 {
+            background-color: rgba(156, 156, 156, 0.466);
+            border-radius: 4%;
+            display: flex;
+            align-content: center;
+            margin: 210px 50px;
+        }
+        .cam3 {
+            background-color: rgba(156, 156, 156, 0.466);
+            border-radius: 4%;
+            display: flex;
+            align-content: center;
+            margin: 20px 50px;
+        }
+        .cam5 {
+            background-color: rgba(156, 156, 156, 0.466);
+            border-radius: 4%;
+            display: flex;
+            align-content: center;
+            margin: 20px 50px;
+        }
+        .cam2 {
+            margin: 5px;
+            background-color: rgba(156, 156, 156, 0.87);
+            border-radius: 4%;
+            display: flex;
+            align-content: center;
+            margin: 20px 50px;
+        }
+        .cam4 {
+            margin: 5px;
+            background-color: rgba(156, 156, 156, 0.856);
+            border-radius: 4%;
+            display: flex;
+            align-content: center;
+            margin: 20px 50px;  
         }
     }
 
