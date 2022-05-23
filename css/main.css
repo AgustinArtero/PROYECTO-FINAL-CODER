@@ -565,14 +565,9 @@ header {
         }
         .prod_cam {
             display: flex;
-            align-items: center;
+            align-content: center;
             flex-direction: column;
         }
-
-
-
-
-
 
 
     }
@@ -587,6 +582,9 @@ header {
         }
         .pics {
             width: 350px;
+        }
+         .camisetaspic {
+            width: 230px;
         }
         .cam1 {
             background-color: rgba(156, 156, 156, 0.466);
