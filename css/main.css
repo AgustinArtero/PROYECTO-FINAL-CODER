@@ -504,6 +504,9 @@ header {
         flex-direction: column;
         justify-content: center;
     }
+        .hokey {
+            margin-bottom: 200px;
+        }
     }
 @media (max-width: 1900px)
  {
@@ -528,9 +531,6 @@ header {
            }
         .redes {
            width: 20px;
-        }
-        .hokey {
-            margin-bottom: 200px;
         }
     }
 
