@@ -884,7 +884,7 @@ header {
         }
         .texttt {
             font-size: 16px;
-            padding: 0px 15px;
+            padding: 0px 10px;
         }
         .areatext {
             width: 370px;
@@ -948,8 +948,14 @@ header {
             display: block; 
             margin: auto;
         }
+        .comple {
+            padding-bottom: 5px;
+        }
         .texttt h2 {
-            font-size: 19px;
+            font-size: 17px;
+        }
+        .texttt {
+            font-size: 15px;
         }
         .areatext {
             width: 280px;
