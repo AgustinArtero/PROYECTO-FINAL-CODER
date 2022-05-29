@@ -538,39 +538,6 @@ header {
         }
     }
 
-@media (max-width: 580px)
-    {
-        .navfooter {
-            width: 100px;
-        }
-        .divredes {
-            left: 10px;
-            height: 150px;
-        }
-        .redes {
-            width: 20px;
-        }
-        .pics {
-            width: 380px;
-        }
-        
-    }
-
-
-
-@media (max-width: 460px)
-    {
-        .dbl {
-            font-size: 15px;
-        }
-        .pics {
-            width: 350px;
-        }
-        .camisetaspic {
-            width: 230px;
-        }
-        
-    }
 
 @media (max-width: 1679px) 
     {
@@ -613,6 +580,12 @@ header {
         .hirschi_dosv2 {
             font-size: 15px;
         }
+        .his_izq {
+            width: 600px;
+        }
+        .his_der {
+            width: 600px;
+        }
     }
 
 @media (max-width: 1192px) 
@@ -650,6 +623,22 @@ header {
             align-content: center;
             margin: 20px 50px;
         }
+        .his {
+            text-align: center;
+        }
+        .his_tit {
+            font-size: 30px;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+        .his_par {
+            font-size: 15px;
+            margin: 10px 210px;
+            font-weight: 500;
+        }
+        .his_fund {
+            text-align: center;
+        }
 }
 
 @media (max-width: 1525px)
@@ -680,6 +669,17 @@ header {
             font-size: 14px;
             padding-right: 10px;
         }
+        .his_cen {
+            font-size: 14px;
+        }
+        .his_izq {
+            width: 500px;
+            font-size: 14px;
+        }
+        .his_der {
+            width: 500px;
+            font-size: 14px;
+        }
 }
 
 @media (max-width: 1200px)
@@ -692,6 +692,23 @@ header {
         }
         .gastro {
             width: 400px;
+        }
+        .his_cen {
+            font-size: 13px;
+        }
+        .his_izq {
+            width: 400px;
+            font-size: 14px;
+        }
+        .his_der {
+            width: 400px;
+            font-size: 14px;
+        }
+        .his_par {
+            margin: 5px 100px;
+        }
+        .his_fund {
+            font-size: 13px;
         }
     }
 
@@ -770,9 +787,140 @@ header {
             font-size: 11px;
             padding-right: 10px;
         }
-
+        .his {
+            text-align: center;
+        }
+        .his_tit {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .his_par {
+            font-size: 13px;
+            margin: 7px 70px;
+            font-weight: 500;
+        }
+        .his_fund {
+            text-align: center;
+        }
+        .his_cen {
+            margin: 10px;
+            font-size: 12px;
+            padding: 10px;
+        }
+        .his_izq {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .his_der {
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+        }
     }
 
+    @media (max-width: 580px)
+    {
+        .navfooter {
+            width: 100px;
+        }
+        .divredes {
+            left: 10px;
+            height: 150px;
+        }
+        .redes {
+            width: 20px;
+        }
+        .pics {
+            width: 380px;
+        }
+        .hirschi_tit {
+            font-size: 15px;
+        }
+        .his_par {
+            margin: 13px;
+        }
+        .fechz {
+            font-size: 24px; 
+        }
+        .his_izq {
+            width: 400px;
+            margin-left: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-right: auto;
+            padding: 10px;
+            font-size: 12px;
+        }
+        .his_der {
+            width: 400px;
+            margin-left: auto;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-right: auto;
+            padding: 10px;
+            font-size: 12px;
+        }
+        .copas_foto {
+            width: 400px;
+        }
+        
+    }
+
+@media (max-width: 460px)
+    {
+        .dbl {
+            font-size: 15px;
+        }
+        .pics {
+            width: 350px;
+        }
+        .camisetaspic {
+            width: 230px;
+        }
+        .hirschi_tit {
+            font-size: 14px;
+        }
+        .his_par {
+            margin: 10px;
+        }
+        .his_cen { 
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .his_izq {
+            width: 330px;
+            margin-left: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-right: auto;
+            padding: 10px;
+            font-size: 12px;
+        }
+        .his_der {
+            width: 330px;
+            margin-left: auto;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-right: auto;
+            padding: 10px;
+            font-size: 12px;
+        }
+        .copas_foto {
+            width: 350px;
+        }
+        .fechz {
+            font-size: 23px;
+        }
+    }
 
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
