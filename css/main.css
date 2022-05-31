@@ -6,14 +6,15 @@ body {
 
 .titulo {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 15px;
 } 
 .titu {
     text-decoration: none;
-    color: rgb(255, 108, 108);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 38px;
 }
 
 header {
@@ -27,8 +28,6 @@ header {
     flex-direction: row;
     justify-content: center;
     font-size: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
     color: #000000;text-shadow: 2px 2.5px 3.4px #fff;
 }
 
@@ -99,12 +98,9 @@ header {
     margin-bottom: 10px;
 }
 .prod_cam {
-
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
 }
 .prod_cam a {
     text-decoration: none;
@@ -112,10 +108,10 @@ header {
     color: #000;
 }
 .camisetaspic {
-    width: 350px;
+    width: 300px;
 }
 .detallecam {
-    padding: 0px 30px;
+    padding: 0px 5%;
     font-weight: 500;
 }
 
@@ -124,24 +120,8 @@ header {
     border-radius: 4%;
     display: flex;
     align-content: center;
-    margin: 50px 50px;
-}
-.cam3 {
-    background-color: rgba(156, 156, 156, 0.466);
-    border-radius: 4%;
-    display: flex;
-    align-content: center;
-    margin: 50px 50px;
-}
-.cam5 {
-    background-color: rgba(156, 156, 156, 0.466);
-    border-radius: 4%;
-    display: flex;
-    align-content: center;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 200px;
+    margin: 20px 20px;
+    width: 390px;
 }
 .cam2 {
     margin: 5px;
@@ -149,29 +129,15 @@ header {
     border-radius: 4%;
     display: flex;
     align-content: center;
-    margin: 50px 50px;
+    margin: 20px 20px;
+    width: 390px;
 }
-.cam4 {
-    margin: 5px;
-    background-color: rgba(156, 156, 156, 0.856);
-    border-radius: 4%;
-    display: flex;
-    align-content: center;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 200px;
+.ult {
+    grid-column-start: 2;
 }
+
 /*A partir de aca son los hover*/
 .cam1:hover {
-    background-color: rgba(156, 156, 156, 0.856);
-    border-radius: 4%;
-}
-.cam3:hover {
-    background-color: rgba(156, 156, 156, 0.856);
-    border-radius: 4%;
-}
-.cam5:hover {
     background-color: rgba(156, 156, 156, 0.856);
     border-radius: 4%;
 }
@@ -179,15 +145,12 @@ header {
     background-color: rgba(156, 156, 156, 0.466);
     border-radius: 4%;
 }
-.cam4:hover {
-    background-color: rgba(156, 156, 156, 0.466);
-    border-radius: 4%;
-}
+
 .dest {
     text-align: center;
     font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 .navfooter {
     background-color: black;
@@ -224,58 +187,65 @@ header {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 19px;
 }
-
-.indekk {
-    border-radius: 5px;
-    background:content-box;
-    display: flex;
-    justify-content:center;
-    flex-direction: row;
-    text-align: center;
+.indek {
+    display: grid;
+    justify-items: center;
 }
-.indekkk {
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    text-align: center;
-    border-bottom: #000 1px;
+.pri_indek {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
 }
-.inekka {
-    border-radius: 3px;
-    background: #dedede;
-    box-shadow:  3px 3px 5px #bfbfbf,-3px -3px 5px #fdfdfd;
-    padding: 10px;
-    margin: 20px;
+.seg_indek {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.indek_fut {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    margin: 0px 15px;
+    padding-top: 0px;
+    padding: 20px 20px 20px;
+    background-clip: border-box;
+    border-radius: 5px;
+    background-color: #a5a5a586;
 }
-.inekka:hover {
-    background: #f1f1f1;
+.indek_fut:hover {
+    background-color: #a5a5a54d;
 }
-.inekka_a {
-    font-weight: 700;
-    font-size: 16px;
-    margin: 15px;
+.indek_bas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+    padding-top: 0px;
+    padding: 20px 20px 20px;
+    background-clip: border-box;
+    border-radius: 5px;
+    background-color: #a5a5a586;
 }
-.inekkb {
-    border-radius: 3px;
-    background: #dedede;
-    box-shadow:  3px 3px 5px #bfbfbf,-3px -3px 5px #fdfdfd;
-    padding: 10px;
-    margin: 20px;
+.indek_hockey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+    padding-top: 0px;
+    padding: 20px 20px 20px;
+    background-clip: border-box;
+    border-radius: 5px;
+    background-color: #a5a5a586;
 }
-.inekkb:hover {
-    background: #f1f1f1;
+.indek_bas:hover {
+    background-color: #a5a5a54d;
 }
-.inekkb_b {
-    font-weight: 700;
-    font-size: 16px;
-    margin: 15px;
+.indek_hockey:hover {
+    background-color: #a5a5a54d;
 }
+.tit_ind {
+    margin-top: 0px;
+}
+
 .tit_est {
     font-size: 24px;
     font-weight: 700;
@@ -431,15 +401,8 @@ header {
 }
 .pics {
     width: 400px;
-    border-color: rgb(116, 116, 116);
-    border-width: 1px 1px;
-    border-style: dashed;
 }
-.pics:hover {
-    border-color: rgb(255, 0, 0);
-    border-width: 1px 1px;
-    border-style: dashed;
-}
+
 .seghirs {
     padding-top: 7px;
     padding-bottom: 30px;
@@ -450,7 +413,6 @@ header {
     align-items: center;
     justify-content: center;
 }
-
 .copas {
     background-image: url(../cimg/libertadores.png);
     text-align: center;
@@ -474,45 +436,37 @@ header {
     color: #fe0000;
 }
 
+.layout {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main; 
+}
+footer {
+    grid-area: footer;
+    height: 150px;
+}
+
+
     /*Responsive Design*/
 
 @media (max-width: 1138px)
-
    { 
         .inde_tit_parrafo { 
             margin: 30px 20px
         }
-        .indek {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
     }
-
-@media (max-width: 950px)
-    {
-        .indekk {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .indekkk {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .hokey {
-            margin-bottom: 200px;
-        }
-        .picz {
-            padding: 10px;
-        }
-    }
-
 @media (max-width: 1900px)
- {
+    {
         .navfooter {
             width: 200px;
         }
@@ -537,24 +491,20 @@ header {
     }
 
 
-@media (max-width: 1679px) 
+@media (max-width: 1750px) 
     {
         .prod_cam {
-            align-items: center;
-            display: flex;
-            justify-content:space-around;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+        }
+        .ult {
+            grid-column-start: auto;
+        }
+        .ulti {
+            grid-column-start: 2;
         }
         .cam1 {
-            display: flex;
-            align-content: center;
-            margin: 20px 50px;
-        }
-        .cam3 {
-            display: flex;
-            align-content: center;
-            margin: 20px 50px;
-        }
-        .cam5 {
             display: flex;
             align-content: center;
             margin: 20px 50px;
@@ -564,12 +514,6 @@ header {
             display: flex;
             align-content: center;
             margin: 20px 50px;
-        }
-        .cam4 {
-            margin: 5px;
-            display: flex;
-            align-content: center;
-            margin: 20px 50px;  
         }
         .gastro 
         {
@@ -586,41 +530,68 @@ header {
         }
     }
 
-@media (max-width: 1192px) 
+@media (max-width: 1500px)
     {
         .prod_cam {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+        }
+        .ult {
+            grid-column-start: auto;
+        }
+        .ulti {
+            grid-column-start: 2;
         }
         .cam1 {
             display: flex;
             align-content: center;
-            margin: 20px 50px;
-        }
-        .cam3 {
-            display: flex;
-            align-content: center;
-            margin: 20px 50px;
-        }
-        .cam5 {
-            display: flex;
-            align-content: center;
-            margin-top: 20px;
-            margin-bottom: 120px;
+            margin: 5px;
         }
         .cam2 {
             margin: 5px;
             display: flex;
             align-content: center;
-            margin: 20px 50px;
-        }
-        .cam4 {
             margin: 5px;
-            display: flex;
-            align-content: center;
-            margin: 20px 50px;
         }
+        .camisetaspic {
+            width: 250px;
+        }
+        .inde_tit_parrafo {
+            margin-right: 200px;
+            margin-left: 200px;
+        }
+    }
+@media (max-width: 1250px) 
+{
+    .prod_cam {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    .ult {
+        grid-column-start: auto;
+    }
+    .ulti {
+        grid-column-start: auto;
+    }
+    .cam1 {
+        display: flex;
+        align-content: center;
+        margin: 5px;
+    }
+    .cam2 {
+        margin: 5px;
+        display: flex;
+        align-content: center;
+        margin: 5px;
+    }
+    .camisetaspic {
+        width: 250px;
+    }
+}
+@media (max-width: 1192px) 
+    {
         .his {
             text-align: center;
         }
@@ -709,49 +680,95 @@ header {
             font-size: 13px;
         }
     }
+@media (max-width: 970px)
+    {
+        .inde_tit_titulo{
+            font-size: 27px;
+        }
+        .inde_tit_parrafo {
+            font-size: 15px;
+        }
+        .pri_indek {
+            display: grid;
+            grid-template-columns: 1fr; 
+        }
+        .seg_indek {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+        }
+        .female {
+            margin-top: 30px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .indek_hockey {
+            margin-top: 30px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .indek_fut {
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .indek_bas {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+@media (max-width: 950px)
+{   
+    .inde_tit_parrafo {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .picz {
+        padding: 10px;
+    }
+    .pags {
+        padding-left: 0px;
+    }
+}
 
+@media (max-width: 830px) 
+{
+    .prod_cam {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .ult {
+        grid-column-start: auto;
+    }
+    .ulti {
+        grid-column-start: auto;
+    }
+    .cam1 {
+        width: 330px;
+        display: flex;
+        align-content: center;
+        margin: 5px;
+    }
+    .cam2 {
+        width: 330px;
+        display: flex;
+        align-content: center;
+        margin: 5px;
+    }
+    .camisetaspic {
+        width: 250px;
+    }
+}
 @media (max-width: 790px)
     {   
+        .titu 
+        {
+        font-size: 35px;
+        }
         .dbl {
             font-size: 17px;
         }
-        .detallecam {
-            font-size: 13px;
-        }
-        .camisetaspic {
-            width: 250px;
-        }
-        .prod_cam {
-            display: flex;
-            align-content: center;
-            flex-direction: column;
-        }
-        .cam1 {
-            display: flex;
-            align-content: center;
-            margin-bottom: 20px;
-        }
-        .cam3 {
-            display: flex;
-            align-content: center;
-            margin-bottom: 20px;
-        }
-        .cam5 {
-            display: flex;
-            align-content: center;
-            margin-bottom: 100px;
-        }
-        .cam2 {
-            display: flex;
-            align-content: center;
-            margin-bottom: 20px;
-        }
-        .cam4 {
-            display: flex;
-            align-content: center;
-            margin-bottom: 20px; 
-        }
-
         .picz {
             width: 350px;
         }
@@ -820,6 +837,14 @@ header {
                 margin-top: 20px;
                 margin-bottom: 20px;
         }
+        .dest {
+            font-size: 26px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        .pics {
+            width: 370px;
+        }
     }
 
     @media (max-width: 580px)
@@ -840,7 +865,7 @@ header {
             width: 20px;
         }
         .pics {
-            width: 380px;
+            width: 350px;
         }
         .hirschi_tit {
             font-size: 15px;
@@ -900,7 +925,7 @@ header {
             font-size: 15px;
         }
         .pics {
-            width: 350px;
+            width: 340px;
         }
         .camisetaspic {
             width: 230px;
