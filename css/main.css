@@ -60,6 +60,7 @@ header {
     text-align: center;
     display: block; 
     margin: auto;
+    margin-top: 50px;
 }
 .comple {
     padding-bottom: 20px;
@@ -70,7 +71,8 @@ header {
     margin-bottom: 10px;
 }
 .texttt {
-    font-size: 20px;
+    padding-top: 1px;
+    font-size: 19px;
     font-weight: 500 ; 
     margin: 0px;
 }
@@ -122,6 +124,7 @@ header {
     border-radius: 4%;
     display: flex;
     align-content: center;
+    justify-content: center;
     margin: 20px 20px;
     width: 390px;
 }
@@ -904,14 +907,15 @@ footer {
             text-align: center;
             display: block; 
             margin: auto;
+            margin-top: 30px;
         }
         .texttt h2 {
             font-size: 21px;
-            padding-top: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
         .texttt {
             font-size: 16px;
-            padding: 0px 10px;
         }
         .areatext {
             width: 370px;
@@ -982,6 +986,7 @@ footer {
             text-align: center;
             display: block; 
             margin: auto;
+            margin-top: 25px;
         }
         .comple {
             padding-bottom: 5px;
