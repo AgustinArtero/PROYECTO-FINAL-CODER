@@ -190,13 +190,13 @@ header {
     margin-bottom: 12px;
 }
 .tit_animado {
-    animation: tit_animado 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.3s both;
+    animation: tit_animado 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.3s both;
 }
-@keyframes tit_animado {
+@keyframes tit_animado 
+{
     0% { 
-        letter-spacing: 0.5em; 
+        letter-spacing: 0.2em; 
         opacity: 0;
-        color: red;
     }
     25% {
         opacity: 0.4;
@@ -491,10 +491,10 @@ footer {
 }
 
 
-    /*Responsive Design*/
+    /*Responsive Design*/    
 
 @media (max-width: 1138px)
-   { 
+    { 
         .inde_tit_parrafo { 
             margin: 30px 20px
         }
@@ -523,8 +523,6 @@ footer {
             font-size: 17px;
         }
     }
-
-
 @media (max-width: 1750px) 
     {
         .prod_cam {
@@ -563,7 +561,6 @@ footer {
             width: 600px;
         }
     }
-
 @media (max-width: 1500px)
     {
         .prod_cam {
@@ -597,7 +594,7 @@ footer {
         }
     }
 @media (max-width: 1250px) 
-{
+    {
     .prod_cam {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -623,7 +620,7 @@ footer {
     .camisetaspic {
         width: 250px;
     }
-}
+    }
 @media (max-width: 1192px) 
     {
         .his {
@@ -642,8 +639,7 @@ footer {
         .his_fund {
             text-align: center;
         }
-}
-
+    }
 @media (max-width: 1525px)
     {
         .picz {
@@ -683,8 +679,26 @@ footer {
             width: 500px;
             font-size: 14px;
         }
-}
-
+    }
+@media (max-width: 1255px) 
+    {
+        .tit_animado {
+            -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        }
+        @-webkit-keyframes tracking-in-expand {
+            0% {
+              letter-spacing: -0.3em;
+              opacity: 0;
+            }
+            40% {
+              opacity: 0.6;
+            }
+            100% {
+              opacity: 1;
+            }
+        }
+    }
 @media (max-width: 1200px)
     {
         .picz {
@@ -752,7 +766,7 @@ footer {
         }
     }
 @media (max-width: 950px)
-{   
+    {   
     .inde_tit_parrafo {
         margin-right: 40px;
         margin-left: 40px;
@@ -763,10 +777,9 @@ footer {
     .pags {
         padding-left: 0px;
     }
-}
-
+    }
 @media (max-width: 830px) 
-{
+    {
     .prod_cam {
         display: grid;
         grid-template-columns: 1fr;
@@ -793,7 +806,7 @@ footer {
     .camisetaspic {
         width: 250px;
     }
-}
+    }
 @media (max-width: 790px)
     {   
         .titu 
@@ -880,7 +893,6 @@ footer {
             width: 370px;
         }
     }
-
     @media (max-width: 580px)
     {
         .navfooter {
@@ -958,7 +970,6 @@ footer {
             margin-bottom: 10px;
         }
     }
-
 @media (max-width: 460px)
     {   
         .titulo {
@@ -1030,7 +1041,6 @@ footer {
             width: 280px;
         }
     }
-
-* {
+*   {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
